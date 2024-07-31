@@ -107,3 +107,15 @@ footer a {
 footer a:hover {
     color: rgb(123, 123, 255);
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .imgs {
+        flex-direction: row;
+    }
+    footer {
+        font-size: 13px;
+    }
+  }
